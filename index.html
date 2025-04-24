@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="landing-page.css" />
+  </head>
+  <body>
+    <main class="landing-page">
+      <section class="hero-section">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/8208782daf2f440e9c7dd6cee43fc847/75fdf504e41a24cebd2a577fd889faefee30a2fe?placeholderIfAbsent=true"
+          class="hero-background"
+          alt="Background"
+        />
+        <h1 class="welcome-title">Bem-vindo(a)</h1>
+        <div class="profile-container" data-el="div-1">
+          <div class="profile-content">
+            <div class="profile-image-column">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/8208782daf2f440e9c7dd6cee43fc847/080c2dfe575b2878ec163f7aaf7b3be7067a141c?placeholderIfAbsent=true"
+                class="profile-image"
+                alt="Profile"
+              />
+            </div>
+            <div class="profile-text-column">
+              <div class="profile-text-wrapper">
+                <div class="profile-header" data-el="div-2">
+                  <div class="profile-title-wrapper">
+                    <div class="profile-title-column">
+                      <h2 class="greeting-title">Oi, Colega!</h2>
+                    </div>
+                    <div class="profile-spacer-column"></div>
+                  </div>
+                </div>
+                <p class="main-description">
+                  Aqui, você encontra um espaço seguro para aprimorar sua
+                  prática na Terapia do Esquema, organizar sua rotina com mais
+                  leveza e crescer na psicologia sem perder de vista o que
+                  realmente importa: o cuidado e a conexão com cada paciente.
+                </p>
+                <p class="secondary-description">
+                  Escolha o caminho que faz mais sentido para você e venha
+                  comigo nessa jornada de aprendizado e evolução – com carinho,
+                  propósito e acolhimento.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="carousel-section">
+          <div class="carousel-container">
+            <div class="carousel-track" data-el="div-3">
+              <div class="carousel-item">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/8208782daf2f440e9c7dd6cee43fc847/83b13c68d09020f3ce6bf2fd8130f93f15884c19"
+                  class="carousel-image"
+                  onclick="window.location.href='https://muitoprazerte.com/'"
+                  alt="Carousel item 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/8208782daf2f440e9c7dd6cee43fc847/e51a532934b26329852305f0ebe259190c521f02"
+                  class="carousel-image"
+                  onclick="window.location.href='http://agendaprospera.com.br/'"
+                  alt="Carousel item 2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img\03.png"
+                  class="carousel-image"
+                  onclick="window.location.href='https://anarizzonpsicologia.com.br/raciocinio-clinico'"
+                  alt="Carousel item 3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img\04.png"
+                  class="carousel-image"
+                  onclick="window.location.href='/link4'"
+                  alt="Carousel item 4"
+                />
+              </div>
+              class="carousel-image" alt="Carousel item 4" />
+            </div>
+            <button
+              class="carousel-nav-prev"
+              data-el="button-1"
+              aria-label="Previous slide"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M15 18L9 12L15 6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="carousel-nav-next"
+              data-el="button-2"
+              aria-label="Next slide"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9 18L15 12L9 6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <div class="carousel-dots mobile-only">
+              <template data-el="for">
+                <button
+                  class="carousel-dot"
+                  data-el="button-3"
+                  aria-label="Go to slide"
+                >
+                  •
+                </button>
+              </template>
+            </div>
+          </div>
+        </section>
+
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/8208782daf2f440e9c7dd6cee43fc847/14321a4eebc09355b2614493797ee6ac592908d7?placeholderIfAbsent=true"
+          class="feature-image"
+          alt="Feature"
+        />
+
+        <a href="#join-club" class="club-button">
+          Fazer parte do Clube da TE
+        </a>
+
+        <section class="faq-section">
+          <div class="faq-container">
+            <h2 class="faq-title">FAQ</h2>
+            <div class="faq-item">
+              <button class="faq-question">
+                Quer aprender mais sobre Terapia do Esquema?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Oferecemos cursos especializados e materiais exclusivos sobre
+                  Terapia do Esquema para ajudar no seu desenvolvimento
+                  profissional.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                Precisa de uma agenda mais produtiva alinhada ao seu propósito?
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Desenvolvemos ferramentas e métodos específicos para otimizar
+                  sua gestão de tempo e aumentar sua produtividade.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                Está buscando crescer na sua carreira como psicólogo(a)?
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Conte com nossa mentoria e recursos exclusivos para
+                  impulsionar sua carreira na área da psicologia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="landing-page.js" defer></script>
+  </body>
+</html>
